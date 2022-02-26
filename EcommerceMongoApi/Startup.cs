@@ -1,3 +1,4 @@
+using EcommerceMongoApi.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,11 +34,16 @@ namespace EcommerceMongoApi
                 AllowAnyMethod().
                 AllowAnyHeader());
             });
-            services.AddControllers();
+           /* var config = new EcommerceDatabaseSettings();
+            Configuration.Bind("EcommereDatabase", config);
+            services.AddSingleton(config);*/
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EcommerceMongoApi", Version = "v1" });
             });
+            services.AddControllers().AddNewtonsoftJson(op =>
+                op.SerializerSettings.ReferenceLoopHandling =
+                    Newtonsoft.Json.ReferenceLoopHandling.Ignore);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,6 +63,7 @@ namespace EcommerceMongoApi
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
