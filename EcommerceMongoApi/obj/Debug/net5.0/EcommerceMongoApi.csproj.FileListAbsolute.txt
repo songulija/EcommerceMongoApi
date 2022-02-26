@@ -47,3 +47,5 @@ D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\Microsoft.Asp
 D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\EcommerceMongoCore.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\EcommerceMongoCore.pdb

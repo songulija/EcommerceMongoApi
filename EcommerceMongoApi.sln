@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMongoApi", "EcommerceMongoApi\EcommerceMongoApi.csproj", "{30415A0A-58AE-423B-AD75-D79361E54E3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMongoData", "EcommerceMongoData\EcommerceMongoData.csproj", "{B9218EE4-4B35-48E6-8081-29F40740749F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMongoCore", "EcommerceMongoCore\EcommerceMongoCore.csproj", "{F47C3A64-80B7-4373-AE61-36DD6B2D6FD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{30415A0A-58AE-423B-AD75-D79361E54E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30415A0A-58AE-423B-AD75-D79361E54E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30415A0A-58AE-423B-AD75-D79361E54E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9218EE4-4B35-48E6-8081-29F40740749F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9218EE4-4B35-48E6-8081-29F40740749F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9218EE4-4B35-48E6-8081-29F40740749F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9218EE4-4B35-48E6-8081-29F40740749F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47C3A64-80B7-4373-AE61-36DD6B2D6FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47C3A64-80B7-4373-AE61-36DD6B2D6FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47C3A64-80B7-4373-AE61-36DD6B2D6FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47C3A64-80B7-4373-AE61-36DD6B2D6FD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

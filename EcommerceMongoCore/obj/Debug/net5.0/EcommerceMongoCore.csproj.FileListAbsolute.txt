@@ -1,0 +1,12 @@
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\bin\Debug\net5.0\EcommerceMongoCore.deps.json
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\bin\Debug\net5.0\EcommerceMongoCore.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\bin\Debug\net5.0\ref\EcommerceMongoCore.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\bin\Debug\net5.0\EcommerceMongoCore.pdb
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\EcommerceMongoCore.csproj.AssemblyReference.cache
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\EcommerceMongoCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\EcommerceMongoCore.AssemblyInfoInputs.cache
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\EcommerceMongoCore.AssemblyInfo.cs
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\EcommerceMongoCore.csproj.CoreCompileInputs.cache
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\EcommerceMongoCore.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\ref\EcommerceMongoCore.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\EcommerceMongoCore.pdb

@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace EcommerceMongoApi.Models
+namespace EcommerceMongoData.Models
 {
     public class PaymentResult
     {

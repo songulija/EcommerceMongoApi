@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace EcommerceMongoApi.Models
+﻿namespace EcommerceMongoCore.Models
 {
     /// <summary>
     /// The preceding BookStoreDatabaseSettings class is used to store the appsettings.json file's BookStoreDatabase property values

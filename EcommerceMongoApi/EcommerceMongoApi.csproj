@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ModelsDTO\" />
+    <ProjectReference Include="..\EcommerceMongoCore\EcommerceMongoCore.csproj" />
   </ItemGroup>
 
 </Project>

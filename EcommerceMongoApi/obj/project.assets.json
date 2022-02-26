@@ -286,6 +286,16 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "EcommerceMongoCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EcommerceMongoCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EcommerceMongoCore.dll": {}
+        }
       }
     }
   },
@@ -774,10 +784,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EcommerceMongoCore/1.0.0": {
+      "type": "project",
+      "path": "../EcommerceMongoCore/EcommerceMongoCore.csproj",
+      "msbuildProject": "../EcommerceMongoCore/EcommerceMongoCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "EcommerceMongoCore >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.14",
       "MongoDB.Driver >= 2.14.1",
       "Swashbuckle.AspNetCore >= 5.6.3"
@@ -809,7 +825,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\AspNetApps\\EcommerceMongoApi\\EcommerceMongoCore\\EcommerceMongoCore.csproj": {
+              "projectPath": "D:\\AspNetApps\\EcommerceMongoApi\\EcommerceMongoCore\\EcommerceMongoCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
