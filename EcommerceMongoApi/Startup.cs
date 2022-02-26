@@ -26,7 +26,13 @@ namespace EcommerceMongoApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowAll", builder =>
+                builder.AllowAnyOrigin().
+                AllowAnyMethod().
+                AllowAnyHeader());
+            });
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -40,11 +46,14 @@ namespace EcommerceMongoApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "EcommerceMongoApi v1"));
             }
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "EcommerceMongoApi v1"));
 
             app.UseHttpsRedirection();
+
+            //Enable cors
+            app.UseCors("AllowAll");
 
             app.UseRouting();
 
