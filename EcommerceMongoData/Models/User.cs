@@ -4,6 +4,9 @@ using System;
 
 namespace EcommerceMongoData.Models
 {
+    //[BsonCollection] is custom attribute that i created. that allows to set
+    //document collection name that it belongs to
+    [BsonCollection("users")]
     public class User : Document
     {
         [BsonElement("type_id")]
