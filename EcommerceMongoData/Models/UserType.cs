@@ -3,11 +3,8 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace EcommerceMongoData.Models
 {
-    public class UserType
+    public class UserType : Document
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
         public string Title { get; set; }
     }
 }

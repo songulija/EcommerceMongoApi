@@ -49,3 +49,9 @@ D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\Newtonsoft.Js
 D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\EcommerceMongoCore.dll
 D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\EcommerceMongoCore.pdb
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\EcommerceMongoData.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\EcommerceMongoData.pdb
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoApi\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

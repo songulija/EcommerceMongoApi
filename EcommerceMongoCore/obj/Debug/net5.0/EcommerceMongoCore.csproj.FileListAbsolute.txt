@@ -10,3 +10,6 @@ D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\EcommerceMon
 D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\EcommerceMongoCore.dll
 D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\ref\EcommerceMongoCore.dll
 D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\EcommerceMongoCore.pdb
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\bin\Debug\net5.0\EcommerceMongoData.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\bin\Debug\net5.0\EcommerceMongoData.pdb
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoCore\obj\Debug\net5.0\EcommerceMongoCore.csproj.CopyComplete

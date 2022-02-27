@@ -8,10 +8,10 @@
     {
         public string ConnectionString { get; set; } = null!;
         public string DatabaseName { get; set; }
-        public string CategoriesCollectionName { get; set; }
+/*        public string CategoriesCollectionName { get; set; }
         public string UserTypesCollectionName { get; set; }
         public string UsersCollection { get; set; }
         public string ProductCollectionName { get; set; }
-        public string OrdersCollectionName { get; set; }
+        public string OrdersCollectionName { get; set; }*/
     }
 }

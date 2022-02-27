@@ -1,0 +1,11 @@
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoData\bin\Debug\net5.0\EcommerceMongoData.deps.json
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoData\bin\Debug\net5.0\EcommerceMongoData.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoData\bin\Debug\net5.0\ref\EcommerceMongoData.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoData\bin\Debug\net5.0\EcommerceMongoData.pdb
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoData\obj\Debug\net5.0\EcommerceMongoData.GeneratedMSBuildEditorConfig.editorconfig
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoData\obj\Debug\net5.0\EcommerceMongoData.AssemblyInfoInputs.cache
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoData\obj\Debug\net5.0\EcommerceMongoData.AssemblyInfo.cs
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoData\obj\Debug\net5.0\EcommerceMongoData.csproj.CoreCompileInputs.cache
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoData\obj\Debug\net5.0\EcommerceMongoData.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoData\obj\Debug\net5.0\ref\EcommerceMongoData.dll
+D:\AspNetApps\EcommerceMongoApi\EcommerceMongoData\obj\Debug\net5.0\EcommerceMongoData.pdb

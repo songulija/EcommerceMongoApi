@@ -4,11 +4,8 @@ using System;
 
 namespace EcommerceMongoData.Models
 {
-    public class User
+    public class User : Document
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
         [BsonElement("type_id")]
         public Guid TypeId { get; set; }
         public string Name { get; set; }

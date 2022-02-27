@@ -5,11 +5,8 @@ using System.Collections.Generic;
 
 namespace EcommerceMongoData.Models
 {
-    public class Product
+    public class Product : Document
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public Guid Id { get; set; }
         [BsonElement("user_id")]
         public Guid UserId { get; set; }
         [BsonElement("category_id")]

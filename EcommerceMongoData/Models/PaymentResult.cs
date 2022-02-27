@@ -5,8 +5,6 @@ namespace EcommerceMongoData.Models
 {
     public class PaymentResult
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
         public string Status { get; set; }
         [BsonElement("update_time")]

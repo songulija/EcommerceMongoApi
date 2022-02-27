@@ -27,9 +27,9 @@ namespace EcommerceMongoApi
                 AllowAnyMethod().
                 AllowAnyHeader());
             });
-            var config = new EcommerceDatabaseSettings();
-            Configuration.Bind("EcommereDatabase", config);
-            services.AddSingleton(config);
+            //The preceding BookStoreDatabaseSettings class is used to store the
+            //appsettings.json file's BookStoreDatabase property values. just binding it to class
+            services.Configure<EcommerceDatabaseSettings>(Configuration.GetSection("EcommereDatabase"));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EcommerceMongoApi", Version = "v1" });
