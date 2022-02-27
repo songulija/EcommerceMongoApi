@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace EcommerceMongoData.Models
 {
+    /// <summary>
+    /// I created a class and interface that contains base information about each document
+    /// </summary>
     public interface IDocument
     {
         [BsonId]

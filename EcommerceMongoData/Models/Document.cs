@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace EcommerceMongoData.Models
 {
+    /// <summary>
+    /// I created a class and interface that contains base information about each document
+    /// settings Created at time to when Id was created
+    /// </summary>
     public class Document : IDocument
     {
         public ObjectId Id { get; set; }

@@ -1,9 +1,10 @@
-using EcommerceMongoCore.Models;
+using EcommerceMongoCore.ModelsDTO;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
 namespace EcommerceMongoApi
@@ -27,9 +28,15 @@ namespace EcommerceMongoApi
                 AllowAnyMethod().
                 AllowAnyHeader());
             });
-            //The preceding BookStoreDatabaseSettings class is used to store the
-            //appsettings.json file's BookStoreDatabase property values. just binding it to class
-            services.Configure<EcommerceDatabaseSettings>(Configuration.GetSection("EcommereDatabase"));
+
+            //The preceding MongoDbSettings class is used to store the
+            //appsettings.json file's MongoDbSettings property values. just binding it to class
+            services.Configure<MongoDbSettings>(Configuration.GetSection("MongoDbSettings"));
+            //Add singleton service of type specified in IMongoDbSettings and its implementation MongoDbSettings
+            //so i can use IMongoDbSettings instead of MongoDbSettings. fields are private
+            services.AddSingleton<IMongoDbSettings>(serviceProvider =>
+            serviceProvider.GetRequiredService<IOptions<MongoDbSettings>>().Value);
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EcommerceMongoApi", Version = "v1" });
