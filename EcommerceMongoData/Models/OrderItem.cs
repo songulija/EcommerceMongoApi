@@ -1,4 +1,5 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 using System;
 
 namespace EcommerceMongoData.Models
@@ -10,7 +11,7 @@ namespace EcommerceMongoData.Models
         public string Image { get; set; }
         public int Price { get; set; }
         //reference to Product
-        [BsonElement("product_id")]
-        public Guid ProductId { get; set; }
+        [BsonElement("product_id"), BsonRepresentation(BsonType.ObjectId)]
+        public string ProductId{ get; set; }
     }
 }

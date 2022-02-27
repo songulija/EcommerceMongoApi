@@ -9,8 +9,8 @@ namespace EcommerceMongoData.Models
     [BsonCollection("users")]
     public class User : Document
     {
-        [BsonElement("type_id")]
-        public Guid TypeId { get; set; }
+        [BsonElement("type_id"), BsonRepresentation(BsonType.ObjectId)]
+        public string TypeId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }

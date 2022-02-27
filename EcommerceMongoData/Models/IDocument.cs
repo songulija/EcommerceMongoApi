@@ -14,8 +14,8 @@ namespace EcommerceMongoData.Models
     public interface IDocument
     {
         [BsonId]
-        [BsonRepresentation(BsonType.String)]
-        ObjectId Id { get; set; }
+        [BsonRepresentation(BsonType.ObjectId)]
+        string Id { get; set; }
         //can only get CreatedAt not set
         DateTime CreatedAt { get; }
     }

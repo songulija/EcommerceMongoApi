@@ -10,8 +10,9 @@ namespace EcommerceMongoData.Models
     [BsonCollection("orders")]
     public class Order : Document
     {
-        [BsonElement("user_id")]
-        public Guid UserId { get; set; }
+        //reference to user
+        [BsonElement("user_id"), BsonRepresentation(BsonType.ObjectId)]
+        public string UserId { get; set; }
         public IList<OrderItem> OrderItems { get; set; }
         public ShippingAddress ShippingAddress { get; set; }
         [BsonElement("payment_method")]

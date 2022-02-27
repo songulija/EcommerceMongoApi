@@ -13,8 +13,8 @@ namespace EcommerceMongoData.Models
     /// </summary>
     public class Document : IDocument
     {
-        public ObjectId Id { get; set; }
+        public string Id { get; set; }
         //gets creation time derived from timestamp
-        public DateTime CreatedAt => Id.CreationTime;
+        public DateTime CreatedAt => DateTime.Now;
     }
 }
